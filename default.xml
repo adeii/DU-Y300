@@ -458,5 +458,20 @@
 
   <!--vendors-->
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="kitkat" />
+  <!-- Device Folders, Kernel & Proprietary BLOBS HUAWEI-->
+  <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
+  <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="kitkat"/>
+  <project path="device/huawei/msm7x27a-common" name="chil360/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
+  <project path="device/huawei/u8833" name="chil360/android_device_huawei_u8833" remote="github" revision="slimkat"/>
+  <project path="device/huawei/u8951" name="chil360/android_device_huawei_u8951" remote="github" revision="slimkat"/>
+  <project path="device/huawei/u8825" name="chil360/android_device_huawei_u8825" remote="github" revision="slimkat"/>
+  <!-- WIFI -->
+  <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+  <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+  <!-- GPS -->
+  <project path="hardware/qcom/gps" name="chil360/android_hardware_qcom_gps" remote="github" revision="kitkat" />
+  <!-- QCOM Hardware -->
+  <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+ <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" remote="github" revision="kitkat"/>	
 
 </manifest>
